@@ -24,14 +24,24 @@ El valor es 10 porque ya fue recibido como parámetro de la función antes de in
 
 -  Asegúrate de que la llamada a la función es `print(funcion_bucle(10))`.
 -  Inicia el modo *Debug* y avanza hasta que la ejecución se detenga en la línea `siguiente_numero = calcular_siguiente(serie)`.
+![img_4.png](img_4.png) 
+Se puede avanzar poniendo un breakpoint como hice yo o con Step Over
 -  Utiliza la opción de depuración adecuada para **entrar dentro** de la función `calcular_siguiente`.
+Se usa Step Into
 
 **Preguntas**
 
 1. Justo cuando el debugger se detiene dentro de la función `calcular_siguiente` por **primera vez**, ¿cuál es el valor que tiene la variable local `aux` *después* de que se ejecute la línea `aux = serie[-1] + serie[-2]`?
+En ambas es 1 el valor.
+
 **(Indica el valor numérico exacto de la variable `aux` en ese momento y el nombre de la herramienta de *debugging* que utilizaste para entrar en la función).**
+![img_5.png](img_5.png)
+El valor es 1, como dije antes
+
 2. Si estuvieras dentro de la función `calcular_siguiente` y quisieras salir rápidamente sin ejecutar el resto de las líneas, volviendo al punto de llamada en `funcion_bucle`, ¿qué función del debugger deberías usar?
+Stop Out
 3. ¿Qué diferencia fundamental existe entre usar *Step Over* y *Step Into* en la línea `siguiente_numero = calcular_siguiente(serie)`?
+Con Step Over ejecutas la función sin entrar en ella y Step Into te permite entrar en ella y depurarla línea a línea.
 
 ---
 
