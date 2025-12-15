@@ -12,11 +12,12 @@
 
 - Coloca un punto de interrupción **normal** en la línea donde se inicializa la lista de la serie: `serie = [0, 1]`. 
 - Inicia el modo *Debug*.
-
+![img_1.png](img_1.png)
 **Pregunta**
 
 1. Si la función es llamada con `n=10`, ¿cuál es el valor de la variable `n` que se visualiza en la ventana de variables del debugger justo antes de que se ejecute la línea `serie = [0, 1]`?
-
+El valor es 10 porque ya fue recibido como parámetro de la función antes de iniciarse la lista serie.
+![img.png](img.png)
 ---
 
 ### Apartado 2
