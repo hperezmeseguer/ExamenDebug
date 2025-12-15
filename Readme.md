@@ -49,9 +49,11 @@ Con Step Over ejecutas la función sin entrar en ella y Step Into te permite ent
 
 -  Cambia la llamada a la función para que el número de elementos sea mayor: `print(funcion_bucle(1000))`.
 -  Establece un **Breakpoint Condicional** para que la ejecución se detenga solo cuando `siguiente_numero` sea **mayor que 20000**.
-
+![img_6.png](img_6.png)
 **Pregunta**
 
 1. Cuando el *Breakpoint Condicional* se activa por **primera vez** (la primera vez que `siguiente_numero` es mayor que 20000), ¿qué longitud tiene `serie`?
-
+![img_7.png](img_7.png)
+![img_9.png](img_9.png)
+Su longitud es de 23
 ---
