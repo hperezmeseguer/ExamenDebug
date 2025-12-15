@@ -55,5 +55,5 @@ Con Step Over ejecutas la función sin entrar en ella y Step Into te permite ent
 1. Cuando el *Breakpoint Condicional* se activa por **primera vez** (la primera vez que `siguiente_numero` es mayor que 20000), ¿qué longitud tiene `serie`?
 ![img_7.png](img_7.png)
 ![img_9.png](img_9.png)
-Su longitud es de 23
+Su longitud es de 23.
 ---
